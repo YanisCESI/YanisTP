@@ -17,7 +17,7 @@ jobs:
         run: echo "Build terminé"
 
       - name: Test
-        run: echo "Tests réussis"
+        run: exit 1
 
       - name: Package
         run: |
